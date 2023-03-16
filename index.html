@@ -1,13 +1,203 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="javascript" href="javascript.js">
-    <title>Title of the document</title>
-</head>
+    <head>
+        <title> Scubadiving</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js"></script>
+ <!--   <meta name="viewport" content="width =device-width, initial-scale=1"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Merriweather+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/terraformer"></script>
+        <script src="https://unpkg.com/@terraformer/wkt"></script>
 
-<body>
-The content of the document......
-</body>
+    </head>
+    <body>
+        <section id="banner">
+            <img src="images/scuba-diving-icon.png" class="logo">
+            <div class="banner-text">
+                <h1>Scubadiving</h1>
+                <p>My diving experiences and a lot more!</p>
+                <div class="banner-btn">
+                    <a href="#"><span></span>Lorem ipsum</a>
+                    <a href="#"><span></span>Lorem ipsum</a>
+                </div>
+            </div>
+        </section>
+
+        <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="#banner">HOME1</a></li>
+                    <li><a href="#feature">HOME2</a></li>
+                    <li><a href="#service">HOME3</a></li>
+                    <li><a href="#testimonial">4</a></li>
+                    <li><a href="#footer">5</a></li>
+                    <li><a href="#laatst">6</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menubtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+
+        <!--homepage--> 
+        
+        <section id="feature">
+            <div class="title-text">
+                <p>HOME2</p>
+                <h1>Lorem ipsum</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>Lorem ipsum1</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                    <h1>Lorem ipsum2</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                    <h1>Lorem ipsum</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                </div> 
+                <div class="features-img">
+                    <div id="map"></div>
+                </div> 
+            </div>
+
+        </section>
+
+        <!--Part2-->
+
+        <section id="service">
+            <div class="title-text">
+                <p>Lorem Ipsum3</p>
+                <h1>Ipsum Lorem</h1>
+            </div>
+            <div class="service-box">
+                <div class="single-service">
+                    <img src="images/banner.jpg">
+                    <div class="service-desc">
+                        <h3>Lorem Ipsum</h3>
+                        <hr>
+                        <p>Test tekst</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="images/banner.jpg">
+                    <div class="service-desc">
+                        <h3>Lorem Ipsum</h3>
+                        <hr>
+                        <p>Test tekst</p>
+                </div>
+                <div class="single-service">
+                    <img src="images/banner.jpg">
+                    <div class="service-desc">
+                        <h3>Lorem Ipsum</h3>
+                        <hr>
+                        <p>Test tekst</p>
+                </div>
+                <div class="single-service">
+                    <img src="images/banner.jpg">
+                    <div class="service-desc">
+                        <h3>Lorem Ipsum</h3>
+                        <hr>
+                        <p>Test tekst</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Part3-->
+
+        <section id="testimonial">
+            <div class="title-text">
+                <p>HOME2</p>
+                <h1>Lorem ipsum</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>Lorem ipsum1</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                    <h1>Lorem ipsum2</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                    <h1>Lorem ipsum</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                </div> 
+                <div class="features-img">
+                    <img src="images/scuba-diving-icon.png">
+                </div> 
+            </div>
+
+        </section>
+
+        <!--part3-->
+
+        <section id="footer">
+            <div class="title-text">
+                <p>Lorem ipsum</p>
+                <h1>Lorem Ipsum</h1>
+            </div>
+        </section>
+
+        <!--Laatste-->
+
+        <section id="laatst">
+            <div class="title-text">
+                <p>HOME2</p>
+                <h1>Lorem ipsum</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>Lorem ipsum1</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                    <h1>Lorem ipsum2</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                    <h1>Lorem ipsum</h1>
+                    <div class="features-desc">
+                        <div class="feature-text"></div>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Lorem lorme Lorme</p>
+                    </div>
+                </div> 
+                <div class="features-img">
+                    <img src="images/scuba-diving-icon.png">
+                </div> 
+            </div>
+
+            
+
+        </section>
+    
+
+
+
+    <script src="./javascript.js"></script>   
+
+    </body>
 
 </html>
