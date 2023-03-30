@@ -3,16 +3,17 @@
     <head>
         <title> Scubadiving</title>
         <link rel="stylesheet" href="style.css">
-        <script src="javascript.js"></script>
  <!--   <meta name="viewport" content="width =device-width, initial-scale=1"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">
         <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Merriweather+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
         <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+      
         <script src="https://cdn.jsdelivr.net/npm/terraformer"></script>
         <script src="https://unpkg.com/@terraformer/wkt"></script>
 
@@ -72,7 +73,7 @@
                     </div>
                 </div> 
                 <div class="features-img">
-                    <div id="map"></div>
+                    <div id="map1"></div>
                 </div> 
             </div>
 
@@ -93,20 +94,6 @@
                         <hr>
                         <p>Test tekst</p>
                     </div>
-                </div>
-                <div class="single-service">
-                    <img src="images/banner.jpg">
-                    <div class="service-desc">
-                        <h3>Lorem Ipsum</h3>
-                        <hr>
-                        <p>Test tekst</p>
-                </div>
-                <div class="single-service">
-                    <img src="images/banner.jpg">
-                    <div class="service-desc">
-                        <h3>Lorem Ipsum</h3>
-                        <hr>
-                        <p>Test tekst</p>
                 </div>
                 <div class="single-service">
                     <img src="images/banner.jpg">
@@ -144,7 +131,7 @@
                     </div>
                 </div> 
                 <div class="features-img">
-                    <img src="images/scuba-diving-icon.png">
+                    <div id="arcgistest"></div>
                 </div> 
             </div>
 
@@ -195,8 +182,9 @@
     
 
 
-
+        <script src="https://js.arcgis.com/4.26/"></script>
     <script src="./javascript.js"></script>   
+
 
     </body>
 

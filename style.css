@@ -201,8 +201,11 @@ nav ul li a{
   padding: 70px 0;
   background: white;
 }
-#map { 
+#map1{ 
   height: 500px;
   width: 750px;
-  position: right;
+}
+#arcgistest{
+  height: 500px;
+  width: 750px;
 }
