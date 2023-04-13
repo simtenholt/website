@@ -167,6 +167,7 @@ nav ul li a {
   padding: 70px 0;
   background: white;
 }
+<<<<<<< HEAD
 #map1 {
   height: 500px;
   width: 750px;
@@ -187,3 +188,10 @@ nav ul li a {
   height: 500px;
   width: 750px;
 }
+=======
+#map { 
+  height: 500px;
+  width: 750px;
+  position: right;
+}
+>>>>>>> parent of 7a85393 (huiswerk)
